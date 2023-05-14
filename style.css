@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rajdhani:wght@300&display=swap');
+
+ :root{
+    --font-titulo: 'Rajdhani', sans-serif;
+    --font-lista: 'Quicksand', sans-serif;
+    --banco-de-cores1: #19376D;
+    --banco-de-cores2: #159895;
+    --banco-de-cores3: #57C5B6;
+    --banco-de-cores4: #1A5F7A;
+    --banco-de-cores5: #002B5B;
+    --banco-de-cores6: #0B2447;
+    --banco-de-cores7: #576CBC;
+    --banco-de-cores8: #A5D7E8;    
+ }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(./imagem/Background-la-gi.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 690px
+
+    
+}
+
+.titulo{
+    margin: 20px;
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 50px;
+    color: var(--banco-de-cores1);
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    font-size: 27px;
+    font-family: var(--font-lista);
+    color: var(--banco-de-cores2);
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 11em;
+    text-align: center;
+    overflow: hidden;
+    transition: 1.0s;
+    margin: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul li:hover{
+    color: aliceblue;
+}
+
+

@@ -4,4 +4,4 @@ Projeto do professor Giulio
 
 site utilizando HTML  e  CSS. 
 
-O site está sendo desenvolvido contendo um card responsivo, area de navegação e sendo bem estilizado para trazer uma experiencia diferente para o usuario 
+O site esta sendo desenvolvido contendo cards responsivo, area de navegacao e sendo bem estilizado para trazer uma experiencia diferente para o usuario 
